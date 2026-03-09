@@ -1,0 +1,51 @@
+{
+  "name": "GOGO: The Game of Go",
+  "short_name": "GOGO",
+  "description": "Master Go with AI opponents, daily puzzles, and tutorials. Free to play!",
+  "lang": "en-US",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fcfcf9",
+  "theme_color": "#21808d",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["game"],
+  "shortcuts": [
+    {
+      "name": "AI Practice",
+      "short_name": "AI Game",
+      "description": "Challenge AI opponent",
+      "url": "/#ai",
+      "icons": [{"src": "icon-192.png", "sizes": "192x192"}]
+    },
+    {
+      "name": "Daily Puzzle", 
+      "short_name": "Puzzle",
+      "description": "Solve today's Go puzzle",
+      "url": "/#puzzle",
+      "icons": [{"src": "icon-192.png", "sizes": "192x192"}]
+    },
+    {
+      "name": "Tutorial",
+      "short_name": "Learn",
+      "description": "Go tutorial for beginners",
+      "url": "/#tutorial",
+      "icons": [{"src": "icon-192.png", "sizes": "192x192"}]
+    }
+  ],
+  "screenshots": []
+}
